@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Quiz Title -->
+        <h1 class="quiz-title">Interactive Quiz</h1>
+        
+        <!-- Progress Tracker -->
+        <div id="progress">Question 1 of 5</div>
+
+        <!-- Timer -->
+        <div id="timer">Time Left: 60s</div>
+
+        <!-- Quiz Form -->
+        <form id="quiz-form">
+            <div id="quiz-questions">
+                <!-- Questions will be injected here dynamically by JavaScript -->
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+
+        <!-- Result Section -->
+        <div id="result" class="hidden">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+            <div id="analysis"></div>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

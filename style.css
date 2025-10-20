@@ -1,0 +1,157 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0;
+}
+
+/* Quiz Container */
+.quiz-container {
+    background: #2a2a3b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* Quiz Title */
+.quiz-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+}
+
+/* Progress Tracker */
+#progress {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #b0b0b0;
+}
+
+/* Timer */
+#timer {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+/* Questions & Options */
+#quiz-questions {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h3 {
+    margin-bottom: 10px;
+    color: #f5f5f5;
+}
+
+.options label {
+    display: block;
+    padding: 10px;
+    border: 1px solid #444;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+    background: #333;
+    color: #ddd;
+}
+
+.options input[type="radio"] {
+    display: none;
+}
+
+.options label:hover {
+    background: #3e3e55;
+    border-color: #6c63ff;
+}
+
+/* Highlight selected option */
+.options input[type="radio"]:checked + label {
+    background: #6c63ff;
+    color: #fff;
+    border-color: #6c63ff;
+}
+
+/* Submit Button */
+#submit-btn {
+    padding: 12px 25px;
+    background: #28a745;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#submit-btn:hover {
+    background: #218838;
+}
+
+/* Result Section */
+#result {
+    margin-top: 20px;
+}
+
+#result h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+}
+
+#score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffdd57;
+}
+
+#analysis {
+    text-align: left;
+    margin-top: 15px;
+    color: #ccc;
+}
+
+#restart-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#restart-btn:hover {
+    background: #0056b3;
+}
+
+/* Hide elements initially */
+.hidden {
+    display: none;
+}
