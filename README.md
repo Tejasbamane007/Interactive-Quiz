@@ -6,7 +6,7 @@ An AI-powered interactive quiz web application that dynamically generates random
 
 ## Preview
 
-<img width="1907" height="893" alt="image" src="https://github.com/user-attachments/assets/cb7729b4-8c8d-4524-a1dc-59b5e9698c48" />
+<img width="1896" height="891" alt="image" src="https://github.com/user-attachments/assets/66a9510d-870e-47af-966d-cd3b3cbb1a25" />
 
 
 <img width="1907" height="893" alt="image" src="https://github.com/user-attachments/assets/57fcdaab-5219-436c-b3ef-82260a3c5c4b" />
