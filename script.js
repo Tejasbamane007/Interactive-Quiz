@@ -1,10 +1,5 @@
-// ====================
-// Gemini-powered Quiz Generator
-// ====================
+const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
 
-const API_KEY = "AIzaSyDmq1K3Kfy6P8HzcHIbXNlLsT9HlPj-D6k"; 
-
-// Fetch random quiz questions from Gemini
 async function fetchQuestions() {
   const prompt = `
   Generate 5 random multiple-choice quiz questions on any general topic.
